@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="1dp"
+    android:layout_height="match_parent"
+    android:background="#8fb0ef"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="143dp"
+        android:src="@mipmap/logo" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="Please fill the details and signup"/>
+     <EditText
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:hint="UserID"
+         android:id="@+id/e1"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:id="@+id/e5"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:id="@+id/e2"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Mobile Number"
+        android:id="@+id/e3"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="City"
+        android:id="@+id/e4"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textColor="#9f4343"
+            android:textSize="15sp"
+            android:id="@+id/b1"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:textColor="#9f4343"
+            android:textSize="15sp"
+            android:layout_height="wrap_content"
+            android:text="Back to Login"
+
+            android:id="@+id/b2"/>
+    </LinearLayout>
+</LinearLayout>
+

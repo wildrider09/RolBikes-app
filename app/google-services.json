@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "593967661329",
+    "firebase_url": "https://rolbikes-60320.firebaseio.com",
+    "project_id": "rolbikes-60320",
+    "storage_bucket": "rolbikes-60320.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593967661329:android:1055ae003ad09e69",
+        "android_client_info": {
+          "package_name": "getstarted.bikes.rol.com.rolbikes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593967661329-b8ara4cjurforgnlgo766i2radaqt3bv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "getstarted.bikes.rol.com.rolbikes",
+            "certificate_hash": "1a387c0b7a49b18849c103a81dafff31d8993c6e"
+          }
+        },
+        {
+          "client_id": "593967661329-fotnvaq0fod53nkti4pnv66khs0o4ro4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGtUjIuquzRrVgsNRQ9F2BhRD1_utA-qA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593967661329-fotnvaq0fod53nkti4pnv66khs0o4ro4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

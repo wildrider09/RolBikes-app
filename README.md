@@ -1,2 +1,2 @@
-# RolBikes-app
+# Wheelz-RolBike-app
 A bike rental system designed to help the customers to take bikes or two-wheelers on rent. When we go on any trip outside the town or country we want to be free of time so instead of going through metros and taxis we prefer to have our own vehicle for rent.  Using this system vehicle owner can register as sellers and customers who want to take bikes on rent can register themselves as renters and can take any bike on rent.

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\DELL\Desktop\RolBikes\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f91a3a8039cecfe831220db21028125af2bd9f50">
+        <dex dex="C:\Users\DELL\Desktop\RolBikes\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_c875b10ca494cbc65c808c0c36ced90ef3d76d49\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DELL\Desktop\RolBikes\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\DELL\Desktop\RolBikes\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_bb87636ce944802a7898b173bb350bacb2770b8b\classes.dex" />
+    </item>
+
+</items>

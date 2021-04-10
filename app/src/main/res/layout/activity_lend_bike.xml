@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/s"
+    android:backgroundTint="#7692ab"
+    android:backgroundTintMode="screen"
+    tools:context="getstarted.bikes.rol.com.rolbikes.LendBike">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:text="Enter Details for lending your bike - " />
+
+    <EditText
+        android:textStyle="bold"
+
+        android:id="@+id/editText"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Owner's Name" />
+
+    <EditText
+        android:textStyle="bold"
+
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText"
+        android:ems="10"
+        android:hint="Bike name"
+        android:inputType="textPersonName"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/editText2"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="textPersonName"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:layout_below="@+id/editText3"
+        android:layout_marginLeft="10dp"
+        android:ems="10"
+        android:hint="Price per hour"
+        android:inputType="numberSigned"
+        android:textColor="#000000" />
+
+    <Switch
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:id="@+id/switch1"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="Helmet Availablity " />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/switch1"
+        android:text="Bike Available " />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="162dp"
+        android:textStyle="italic"
+        android:textColor="#041489"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="120dp"
+        android:onClick="lend_confirm"
+        android:text="Lend" />
+
+
+</RelativeLayout>
